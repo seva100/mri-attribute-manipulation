@@ -3,8 +3,8 @@ Manipulation of MRI images according to Alzheimer disease stage and person age
 
 ### Overview 
 **Goal**: simulate the process  of brain aging with and without Alzheimer disease on MRI images
-    * Fade MRI over age
-    * Fade MRI over stages of Alzheimer
+* Fade MRI over age
+* Fade MRI over stages of Alzheimer
 
 **Motivation**: 
 * observing the process of brain aging and Alzheimer disease progression  might help to predict possible complications 
@@ -12,6 +12,7 @@ Manipulation of MRI images according to Alzheimer disease stage and person age
 
 **Data:**
 ![ADNI dataset](https://ida.loni.usc.edu/login.jsp?project=ADNI#). Subset of 4968 MRIs of 1582 patients taken in T1 modality was chosen. 
+Data is not released in this repository, as the dataset is only available by request.
 
 **Methods** &mdash; generative and optimization-based models:
 * Deep Feature Interpolation ![[1]](https://arxiv.org/abs/1611.05507)
@@ -35,3 +36,9 @@ Subjective rating:
 * It was hard to evaluate models quantitatively on ADNI, since the dataset was relatively small, and it was difficult to train a well-performing predictor of age and diagnosis.
 * While some of the models fail to yield diverse reconstructions that comply with prior knowledge about the disease, some of them, such as Fader Networks and Visual Attribution GAN, serve a decent proof of concept.
 * It is suspected that using 3D as an input domain for all methods would produce much better results, as slices are subject to motion and misalignment. However, using 3D MRI images as input data is very computationally demanding for the most methods.
+
+### Used third-party code
+* Fader networks implementation: https://github.com/facebookresearch/FaderNetworks
+* InfoGAN implementation: https://github.com/pianomania/infoGAN-pytorch
+* Elements of code from https://github.com/znxlwm/pytorch-MNIST-CelebA-GAN-DCGAN for IcGAN implementation.
+
