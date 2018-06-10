@@ -41,7 +41,7 @@ Subjective rating:
 * While some of the models fail to yield diverse reconstructions that comply with prior knowledge about the disease, some of them, such as Fader Networks and Visual Attribution GAN, serve a decent proof of concept.
 * It is suspected that using 3D as an input domain for all methods would produce much better results, as slices are subject to motion and misalignment. However, using 3D MRI images as input data is very computationally demanding for the most methods.
 
-[**Project report**](report/MRI Final Report.pdf)
+**Detailed project report** is available [here](https://github.com/seva100/mri-attribute-manipulation/blob/master/report/MRI%20Final%20Report.pdf).
 
 ### Used third-party code
 * Fader networks implementation: https://github.com/facebookresearch/FaderNetworks
