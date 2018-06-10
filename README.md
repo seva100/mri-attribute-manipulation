@@ -6,7 +6,7 @@ Manipulation of MRI images according to Alzheimer disease stage and person age
 * Fade MRI over age
 * Fade MRI over stages of Alzheimer
 
-![Task overview](../pics/overview_1.png)
+![Task overview](pics/overview_1.png)
 
 **Motivation**: 
 * observing the process of brain aging and Alzheimer disease progression  might help to predict possible complications 
@@ -16,7 +16,7 @@ Manipulation of MRI images according to Alzheimer disease stage and person age
 ![ADNI dataset](https://ida.loni.usc.edu/login.jsp?project=ADNI#). Subset of 4968 MRIs of 1582 patients taken in T1 modality was chosen. Data is **not** released in this repository, as the dataset is only available by request. For the most methods, a slice with maximal sum over transverse axis was chosen as a working slice. 
 
 Distribution of Age and DX in the subset (Alzheimer-related score):
-![Distribution of Age and DX in the subset](../pics/subset_age_dx_distr.png)
+![Distribution of Age and DX in the subset](pics/subset_age_dx_distr.png)
 
 **Methods** &mdash; generative and optimization-based models:
 * Deep Feature Interpolation ![[1]](https://arxiv.org/abs/1611.05507)
