@@ -16,7 +16,7 @@ Manipulation of MRI images according to Alzheimer disease stage and person age
 [ADNI dataset](https://ida.loni.usc.edu/login.jsp?project=ADNI#). Subset of 4968 MRIs of 1582 patients taken in T1 modality was chosen. Data is **not** released in this repository, as the dataset is only available by request. For the most methods, a slice with maximal sum over transverse axis was chosen as a working slice. 
 
 Distribution of Age and DX in the subset (Alzheimer-related score):
-![Distribution of Age and DX in the subset](pics/subset_age_dx_distr.png)
+<img width="650" alt="Distribution of Age and DX in the subset" src="pics/subset_age_dx_distr.png">
 
 **Methods** &mdash; generative and optimization-based models:
 * Deep Feature Interpolation [[1]](https://arxiv.org/abs/1611.05507)
