@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
 import numpy as np
 import pandas as pd
 
@@ -18,13 +12,10 @@ from skimage.transform import resize
 from skimage.io import imread, imsave
 
 
-# In[ ]:
-
-
 class mri_data(Dataset):
     def __init__(self, 
-                 folder='/home/use/Desktop/Final_proj/icg/bids_slices', 
-                 metadata='/home/use/datagate/ADNI_bids/matched_saved_exp.csv', 
+                 folder='bids_slices', 
+                 metadata='matched_saved_exp.csv', 
                  columns=['anat_ras','ADAS13'],
                  resize_shape = (128,128),
                  DX_dict = {'CN':0,'MCI':1,'Dementia':2},
