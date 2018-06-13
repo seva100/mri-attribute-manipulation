@@ -1,0 +1,2 @@
+## Naive Visual Attribution GAN*
+> We implement a naive version of VAGAN. That means that the only one adversarial loss is the Wasserstein loss from discriminator, that detects fake images. The loss for attributes is calculated based on pre-trained classifier/regressor.
